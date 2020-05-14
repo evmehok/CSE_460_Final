@@ -1,0 +1,9 @@
+<launch>
+    <!-- bot_test package launch file -->
+    <node 
+        pkg="bot_teleop" 
+        type="test_Twist.py" 
+        name="test_Twist"  
+        output="screen">
+    </node>
+</launch>

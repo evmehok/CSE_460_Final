@@ -1,0 +1,9 @@
+<launch>
+    <!-- bot_teleop package launch file -->
+    <node 
+        pkg="bot_teleop" 
+        type="bot_teleop.py" 
+        name="bot_teleop_node"  
+        output="screen">
+    </node>
+</launch>
