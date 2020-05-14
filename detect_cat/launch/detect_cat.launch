@@ -1,0 +1,9 @@
+<launch>
+    <!-- detect_cat package launch file -->
+    <node 
+        pkg="detect_cat" 
+        type="detect_cat.py" 
+        name="detect_cat"  
+        output="screen">
+    </node>
+</launch>
