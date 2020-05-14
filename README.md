@@ -14,4 +14,5 @@ Used to find cat in video published from robot. Run bot_server package on robot 
 Model for detection can be found in this tutorial: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#implementation
 
 detect_color:
-Used to detect a pink, obtuse triangle cut-out placed on top of robot. The paper triangle should have the vertices opposite the largest side placed at the front of the robot. An external camera plugged into the computer should be used, and attached to the ceiling. Calibrate the dimensions of the viewing space to the resolution of the camera. Also, the high and low ranges for the HSV parameters used to detect the pink triangle should be altered depending upon your condition.
+Used to detect a pink, obtuse triangle cut-out placed on top of robot to localize it in it's environment. The paper triangle should have the vertices opposite the largest side placed at the front of the robot. An external camera plugged into the computer should be used, and attached to the ceiling. Calibrate the dimensions of the viewing space to the resolution of the camera. Also, the high and low ranges for the HSV parameters used to detect the pink triangle should be altered depending upon your condition.
+Run the search_cat (misleading name) on the robot when complete so that the robot can follow a rectangle shape on the ground.
