@@ -1,0 +1,18 @@
+<launch>
+    <!-- bot_server package launch file -->
+    <include file="$(find bot_led)/launch/bot_led.launch"/>
+    <include file="$(find bot_servo)/launch/bot_servo.launch"/>
+    <include file="$(find bot_ultra)/launch/bot_ultra.launch"/>
+    <include file="$(find move_bot)/launch/move_bot.launch"/>
+    <include file="$(find video_stream_opencv)/launch/camera.launch" >
+        <!-- means video device 0, /dev/video0 -->
+        <arg name="video_stream_provider" value="0" />
+        <!-- set camera fps to (if the device allows) -->
+        <arg name="set_camera_fps" value="30"/>
+        <!-- set buffer queue size of frame capturing to -->
+        <arg name="buffer_queue_size" value="1" />
+        <!-- throttling the querying of frames to -->
+        <arg name="fps" value="10" />
+   </include>
+</launch>
+

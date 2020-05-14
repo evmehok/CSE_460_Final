@@ -1,0 +1,9 @@
+<launch>
+    <!--bot_servo package  -->
+    <node pkg="bot_servo" 
+    type="bot_servo.py" 
+    name="bot_servo_node"  
+    output="screen">
+    </node>
+</launch>
+

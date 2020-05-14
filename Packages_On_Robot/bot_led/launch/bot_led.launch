@@ -1,0 +1,8 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="bot_led" 
+    type="bot_led.py" 
+    name="bot_led_node"
+    output="screen">
+    </node>
+</launch>

@@ -1,0 +1,21 @@
+<launch>
+    <!-- bot_teleop package launch file -->
+     <node 
+        pkg="bot_led" 
+        type="bot_led.py" 
+        name="bot_led_node"  
+        output="screen">
+    </node>
+    <node 
+        pkg="move_bot" 
+        type="move_bot.py" 
+        name="move_bot_node"  
+        output="screen">
+    </node>
+    <node 
+        pkg="bot_teleop" 
+        type="bot_teleop.py" 
+        name="bot_teleop_node"  
+        output="screen">
+    </node>
+</launch>

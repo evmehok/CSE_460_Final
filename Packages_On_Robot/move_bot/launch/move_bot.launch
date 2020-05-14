@@ -1,0 +1,10 @@
+<launch>
+    <!-- move_bot package launch file -->
+    <node 
+        pkg="move_bot" 
+        type="move_bot.py" 
+        name="move_bot_node"  
+        output="screen">
+    </node>
+</launch>
+

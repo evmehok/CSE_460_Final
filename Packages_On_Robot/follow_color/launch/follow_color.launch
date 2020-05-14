@@ -1,0 +1,33 @@
+<launch>
+    <!-- follow_color package launch file -->
+     <node 
+        pkg="bot_led" 
+        type="bot_led.py" 
+        name="bot_led_node"  
+        output="screen">
+    </node>
+    <node
+        pkg="bot_servo"
+        type="bot_servo.py"
+        name="bot_servo_node"
+        output="screen">
+    </node>
+    <node 
+        pkg="bot_ultra" 
+        type="bot_ultra.py" 
+        name="bot_ultra_node"  
+        output="screen">
+    </node>
+    <node 
+        pkg="move_bot" 
+        type="move_bot.py" 
+        name="move_bot_node"  
+        output="screen">
+    </node>
+    <node 
+        pkg="follow_color" 
+        type="follow_color.py" 
+        name="follow_color_node"  
+        output="screen">
+    </node>
+</launch>

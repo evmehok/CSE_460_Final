@@ -1,0 +1,10 @@
+<launch>
+    <!-- bot_server package launch file -->
+    <include file="$(find bot_server)/launch/bot_server.launch"/>
+    <node 
+        pkg="search_cat" 
+        type="search_cat.py" 
+        name="search_cat"  
+        output="screen">
+    </node>
+ </launch>

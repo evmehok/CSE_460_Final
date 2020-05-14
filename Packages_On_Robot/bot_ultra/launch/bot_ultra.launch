@@ -1,0 +1,8 @@
+<launch>
+    <!--bot_ultra package  -->
+    <node pkg="bot_ultra" 
+    type="bot_ultra.py" 
+    name="bot_ultra_node"  
+    output="screen">
+    </node>
+</launch>

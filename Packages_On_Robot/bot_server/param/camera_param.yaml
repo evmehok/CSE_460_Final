@@ -1,0 +1,8 @@
+# means video device 0, /dev/video0
+video_stream_provider = 0
+# set camera fps to (if the device allows)
+set_camera_fps = 30
+# set buffer queue size of frame capturing to
+buffer_queue_size = 1
+# throttling the querying of frames to
+fps = 1

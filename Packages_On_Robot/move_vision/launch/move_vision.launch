@@ -1,0 +1,11 @@
+<launch>
+    <!-- bot_server package launch file -->
+    <include file="$(find bot_server)/launch/bot_server.launch"/>
+    <node 
+        pkg="move_vision" 
+        type="move_vision.py" 
+        name="move_vision_node"  
+        output="screen">
+    </node>
+
+ </launch>
